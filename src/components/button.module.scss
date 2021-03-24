@@ -1,0 +1,14 @@
+@import '../styles/lightTheme.scss';
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  color: $button-font;
+  padding: 2px;
+}
+
+.button:hover {
+  cursor: pointer;
+}

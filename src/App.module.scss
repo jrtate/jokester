@@ -1,0 +1,118 @@
+@import './styles/lightTheme.scss';
+
+.app {
+  background-color: $background;
+  min-height: 100vh;
+  color: $primary-font;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.getJokeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  height: 75px;
+  margin: 48px 0;
+}
+
+.showHideButtonContainer {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.showPunchline {
+  margin-top: 48px;
+  width: 200px;
+  height: 75px;
+  background-color: $showPunchlineButton;
+  transition: all .3s ease-in-out;
+}
+
+.showPunchline:hover {
+  box-shadow: 0 0 3px 1.5px $showPunchlineButtonHover;
+}
+
+.hidePunchline {
+  margin-top: 48px;
+  width: 200px;
+  height: 75px;
+  background-color: $hidePunchlineButton;
+  transition: all .3s ease-in-out;
+}
+
+.hidePunchline:hover {
+  box-shadow: 0 0 3px 1.5px $hidePunchlineButtonHover;
+}
+
+.getJokeButton {
+  width: 260px;
+  height: 75px;
+  background-color: $getJokeButton;
+  transition: all .3s ease-in-out;
+}
+
+.getJokeButton:hover {
+  box-shadow: 0 0 3px 1.5px $getJokeHover;
+}
+
+.divider {
+  background-color: $divider;
+  width: 50vw;
+  height: 1px;
+}
+
+.jokeLabel {
+  margin-top: 48px;
+  font-size: 30px;
+}
+
+.error {
+  color: $error-font;
+  margin-top: 48px;
+}
+
+.loader {
+  color: $loader-font;
+  margin-top: 48px;
+}
+
+.displayjokeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.setupContainer {
+  display: flex;
+  position: relative;
+}
+
+.punchlineContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.startQuote {
+  font-size: 400px;
+  color: $loader-font;
+  position: absolute;
+  top: -60px;
+  left: -40px;
+  opacity: 0.1;
+}
+
+.endQuote {
+  font-size: 400px;
+  color: $loader-font;
+  position: absolute;
+  top: -60px;
+  right: -40px;
+  opacity: 0.1;
+}

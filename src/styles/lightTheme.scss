@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+$background: $white;
+$primary-font: $black;
+$button-font: $white;
+$loader-font: $gray;
+$error-font: $red;
+$divider: $gray;
+
+$getJokeButton: $mantis;
+$getJokeHover: $off-mantis;
+$showPunchlineButton: $fun-blue;
+$showPunchlineButtonHover: $off-fun-blue;
+$hidePunchlineButton: $mariner;
+$hidePunchlineButtonHover: $off-mariner;
